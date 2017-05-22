@@ -35,6 +35,22 @@ $("#stay2").click(function() {
 $("#up2").click(function() {
    $("#stay2").hide();
    $("#5-2").show();
-}); 
+});
+$("#stay3").click(function() {
+    $("#up3").hide();
+    $("#6-1").show();
+});
+$("#up3").click(function() {
+    $("#stay3").hide();
+    $("#6-2").show();
+});
+$("#stay4").click(function() {
+    $("#up4").hide();
+    $("#7-1").show();
+});
+$("#up4").click(function() {
+    $("#stay4").hide();
+    $("#7-2").show();
+})
 }
 $(document).ready(pageload);
