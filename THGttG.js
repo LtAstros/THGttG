@@ -51,6 +51,17 @@ $("#stay4").click(function() {
 $("#up4").click(function() {
     $("#stay4").hide();
     $("#7-2").show();
+});
+$("#stay5").click(function() {
+    $("#up5").hide();
+    $("#8-1").show();
+});
+$("#up5").click(function() {
+    $("#stay5").hide();
+    $("#8-2").show();
+});
+$("#end").click(function() {
+    $("#9-1").show();
 })
 }
 $(document).ready(pageload);
